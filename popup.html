@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LPU - Snail</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>LPU - Snail</h1>
+      <p>Login with your LPU wifi credentials</p>
+
+      <label for="username">User Name</label>
+      <input type="text" id="username" placeholder="Enter User Name" required />
+
+      <label for="password"
+        >Password
+        <a
+          href="https://ums.lpu.in/lpuums/frmAdPassword.aspx"
+          class="forgot-password"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Forgot password?</a
+        >
+      </label>
+      <input type="password" id="password" placeholder="Enter Password" />
+
+      <button id="login" class="log-in-btn">Login</button>
+      <p id="status" class="error"></p>
+      <div class="help-text">
+        Made By Satyam Kumar K25RM13 •
+        <a
+          href="https://internet.lpu.in/24online/webpages/client.jsp"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Wifi Login</a
+        >
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
